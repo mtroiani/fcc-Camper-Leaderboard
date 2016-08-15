@@ -1,0 +1,39 @@
+$primary-color: rgb(228, 252, 255);
+
+h1 {
+  text-align: center;
+}
+
+img {
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin: 5px;
+}
+
+
+
+table {
+  text-align: center;
+  th {
+    text-align: center;
+    background-color: darken($primary-color, 50%);
+    a {
+      color: black;
+      text-decoration: underline;
+    }
+  }
+  .name {
+    text-align: left;
+  }
+}
+.selection {
+  background-color: darken($primary-color, 55%);
+}
+.selection:after {
+  content: ' \25bc'
+}
+
+tr:nth-child(odd) {
+  background-color: $primary-color;
+}

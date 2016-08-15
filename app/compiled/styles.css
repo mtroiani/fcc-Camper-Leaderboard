@@ -1,0 +1,28 @@
+h1 {
+  text-align: center; }
+
+img {
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin: 5px; }
+
+table {
+  text-align: center; }
+  table th {
+    text-align: center;
+    background-color: #00cbe4; }
+    table th a {
+      color: black;
+      text-decoration: underline; }
+  table .name {
+    text-align: left; }
+
+.selection {
+  background-color: #00b4cb; }
+
+.selection:after {
+  content: ' \25bc'; }
+
+tr:nth-child(odd) {
+  background-color: #e4fcff; }
